@@ -25,9 +25,10 @@
   - [DMA - WS2812灯串](ch_16_dma_ws2812.md)
   - [PWM - 电机控制](ch_17_pwm_motor.md)
   - [PWM - 无源蜂鸣器](ch_18_pwm_passive_buzzer.md)
-  - [ADC - NTC热敏电阻测温](ch_19_adc_ntc.md)
+  - [ADC - 光敏电阻亮度测量](ch_19_adc_brightness.md)
   - [ADC - 多通道采集](ch_20_adc_multi_channel_acqusition.md)
-  - [RTC实时时钟](ch_21_rtc.md)
+  - [DAC - 呼吸灯](ch_21_dac_breathing_light.md)
+  - [RTC实时时钟](ch_22_rtc.md)
 
 
 
