@@ -10,13 +10,14 @@
   - [GPIO](ch_05_gpio.md)
   - [时钟树](ch_06_clock_tree.md)
   - [ADC/DAC原理](ch_07_adc_dac.md)
+  - [高精度惯性测量单元(IMU)](imu.md)
 
 
 - 下卷 - 武功招式篇
 
   - [GPIO - 点灯](ch_08_gpio_led.md)
   - [GPIO - 继电器](ch_09_gpio_relay.md)
-  - [GPIO - 霍尔开关](ch_19_adc_brightness.md)
+  - [GPIO - 磁控开关](ch_19_adc_brightness.md)
   - [串口 - 数据收发](ch_10_serial.md)
   - [定时器 - 超声波测距](ch_11_timer_ultrasonic_distance.md)
   - [定时器 - 旋转编码器](ch_12_timer_encoder.md)
@@ -30,6 +31,7 @@
   - [ADC - 可变电阻电压读取](ch_20_adc_multi_channel_acqusition.md)
   - [ADC - 多通道采集](ch_20_adc_multi_channel_acqusition.md)
   - [RTC实时时钟](ch_22_rtc.md)
+  - [IMU - 位姿测量](imu_practice.md)
 
 
 

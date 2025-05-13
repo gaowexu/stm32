@@ -259,7 +259,36 @@ window.$docsify = {
 
 ## 霍尔开关与磁感应电路 
 
+[UHE4913G-AE3-R 霍尔效应开关 C86815](https://item.szlcsc.com/87992.html?fromZone=s_s__%2522UHE4913%2522&spm=sc.gb.xh1.zy.n&lcsc_vid=QlNXUgECQFYIV1wERABbUAZXE1cPAlZRQQVcBAcDEgAxVlNSQFBeVVBfQVRaUzsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D)
 
+
+
+<div style="text-align: center;">
+    <img src="./_asset/Hall_switch.png" width="50%">
+</div>
+<center><span>图XX</span> 霍尔开关典型电路应用 </center>
+
+
+
+## RGB LED 点灯
+
+[RS-3535MWAR C110402](https://item.szlcsc.com/111625.html?fromZone=s_s__%2522RGB%2520LED%2522&spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&lcsc_vid=FFgIVFMFEQNbAgZVRFYPXwAEQgBcAlcCQVMIUldRFQQxVlNSQFFdV1JfRlFZVTsOAxUeFF5JWBYZEEoVDQ0NFAdIFA4DSA%3D%3D)
+
+
+<div style="text-align: center;">
+    <img src="./_asset/RGB_LED_Spec.png" width="50%">
+</div>
+<center><span>图XX</span> RGB LED 数据手册 </center>
+
+如果是 3.3V 供电，则需要串联电阻如下：
+- R：$(3.3 - 2.0) / 0.02 = 65 \Omega$
+- G：$(3.3 - 2.9) / 0.02 = 20 \Omega$
+- B：$(3.3 - 2.9) / 0.02 = 20 \Omega$
+
+
+[0603WAF200JT5E 20Ω 厚膜电阻 C22950](https://item.szlcsc.com/23677.html?fromZone=l_c__%2522catalog%2522&spm=sc.cid.xh1.zy.n___sc.hm.hd.ca1.2-1&lcsc_vid=FFgIVFMFEQNbAgZVRFYPXwAEQgBcAlcCQVMIUldRFQQxVlNSQFBeU1dXQFlfVzsOAxUeFF5JWBYZEEoVDQ0NFAdIFA4DSA%3D%3D)
+
+[0603WAF649JT5E 64.9Ω ±1% 100mW 厚膜电阻 C23224](https://item.szlcsc.com/23951.html?fromZone=l_c__%2522catalog%2522&spm=sc.cid.xh4.zy.n___sc.hm.hd.ca1.2-1&lcsc_vid=FFgIVFMFEQNbAgZVRFYPXwAEQgBcAlcCQVMIUldRFQQxVlNSQFBeU1dXQFlfVzsOAxUeFF5JWBYZEEoVDQ0NFAdIFA4DSA%3D%3D)
 
 ## LED灯组电路
 
@@ -313,6 +342,12 @@ STM32是3.3V供电芯片，输出Push-Pull模式只有3.3V，WS2812采用5V供�
 继电器采用的是 [松乐 蓝色 SRD-05VDC-SL-C](https://item.szlcsc.com/36422.html?fromZone=s_s__%2522SRD-05VDC-SL-C%2522&spm=sc.gb.xh1.zy.n&lcsc_vid=TgALVVUHRVlfBF0EQwIKXlBQQVVfBl1eT1cNVFIFQgAxVlNSQVVcUFVXR1dYXjsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D)
 
 
+<div style="text-align: center;">
+    <img src="./_asset/Relay_circuit.png" width="40%">
+</div>
+<center><span>图XX</span> 继电器控制典型电路应用 </center>
+
+
 
 ## 旋转编码器电路
 
@@ -337,9 +372,31 @@ PB15 上接一个10K的上拉电阻，上拉电阻接 5V 电压。 PA8，PA9 都
 
 3.3V 都上拉一个10K欧姆的电阻。
 
+按键选择 [6.1*3.65*2.5mm 立贴 轻触开关 贴片 塑胶按钮红头 C412368](https://item.szlcsc.com/404080.html?fromZone=s_s__%2522C412368%2522&spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&c=&lcsc_vid=QlNXUgECQFYIV1wERABbUAZXE1cPAlZRQQVcBAcDEgAxVlNSQFFXXlZXQ1JaVTtW)
+
+
+C398053
+
+<div style="text-align: center;">
+    <img src="./_asset/Key_circuit.png" width="30%">
+</div>
+<center><span>图XX</span> 轻触按键电路 </center>
 
 
 ## BOOT 电路
+
+<div style="text-align: center;">
+    <img src="./_asset/BOOT_Circuit.png" width="50%">
+</div>
+<center><span>图XX</span> STM32 Boot电路 </center>
+
+> Reference: [Boot configuration](https://www.st.com/content/ccc/resource/technical/document/application_note/6c/a3/24/49/a5/d4/4a/db/CD00164185.pdf/files/CD00164185.pdf/jcr:content/translations/en.CD00164185.pdf)
+
+
+
+## 惯性测量单元（IMU）
+
+传感器选型：[六轴陀螺仪 QST(上海矽睿) QMI8658A C3021082](https://item.szlcsc.com/3544058.html?fromZone=s_s__%2522QMI8658%2522&spm=sc.gb.xh1.zy.n___sc.gb.hd.ss&lcsc_vid=FFgIVFMFEQNbAgZVRFYPXwAEQgBcAlcCQVMIUldRFQQxVlNSQFBeU1dXQFlfVzsOAxUeFF5JWBYZEEoVDQ0NFAdIFA4DSA%3D%3D)
 
 
 
